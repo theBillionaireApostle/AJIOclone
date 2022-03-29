@@ -129,13 +129,18 @@ color: #526371;
 #bottomSection>input:focus{
     outline: none;
 }
+#bottomSection>input::placeholder{
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
 
 #bottomSection>input{
     height: 60%;
     width: 60%;
     border-radius: 20px;
     background-color: #fffded;
-    border: 0.7px solid black;
+    border: 1px solid black;
 }
 #bottomSection>button{
 
@@ -166,9 +171,134 @@ color: #526371;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     
 }
 #bottomSection>div>div>i{
     color: white;
 
 } 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  .sticky + .headContent {
+    padding-top: 102px;
+  }
+
+
+  #footer{
+      height: 70%;
+      width: 100%;
+      border: 1px solid #2b4051;
+
+      background-color: #2b4051;
+
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      color: #c9c9c9;
+  }
+  #footer>div
+  {
+      height: 100%;
+      width: 80%;
+      margin: auto;
+  }
+
+
+  #fTopSection
+  {
+      height: 65%;
+      /* border: 1px solid white; */
+      display: flex;
+  }
+  #fBottomSection
+  {
+      height: 30%;
+      /* border: 1px solid white; */
+  }
+
+  #fTopSection>div
+  {
+      height: 100%;
+      width: 40%;
+      /* border: 1px solid white; */
+      text-align: left;
+  }
+  #fTopSection>div>div
+  {
+      height: 100%;
+      width: 60%;
+      
+      line-height: 25px;
+      /* border: 1px solid white; */
+
+  }
+  #fTopSection>div>div>div
+  {
+      font-size: 12px;
+  }
+  #fTopSection>div>div>div>a
+  {
+    color: #c9c9c9;
+    text-decoration: none;
+  }
+  #fTopSection>div>div>div>a:hover
+  {
+    
+    text-decoration: underline;
+  }
+
+
+
+  #fBottomSection>div
+  {
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid  red; */
+    display: flex;
+  }
+  #fTop
+  {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+  }
+  #fTop>div
+  {
+    font-family: Lora;
+  }
+
+  #fBottom
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #icons
+  {
+      display: flex;
+      font-size: 15px;
+      justify-content: space-around;
+      width: 35%;
+      /* border: 1px solid white; */
+  }
+  #fBottom>div>div
+  {
+      
+      font-size: 15px;
+      /* border: 1px solid white; */
+      justify-content: center;
+      color: white;
+      
+  }
+  
+  #lock
+  {
+        display: flex;
+        justify-content: center;
+  }
