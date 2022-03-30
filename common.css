@@ -290,14 +290,16 @@ color: #526371;
       justify-content: space-around;
       width: 35%;
       /* border: 1px solid white; */
+      padding-top: 10px;
   }
   #fBottom>div>div
   {
       
       font-size: 15px;
-      /* border: 1px solid white; */
+      /*     */
       justify-content: center;
       color: white;
+      padding-top: 10px;
       
   }
   
