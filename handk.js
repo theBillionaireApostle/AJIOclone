@@ -1,8 +1,11 @@
+
+
+
 window.onscroll = function() {myFunction()};
 
 var header = document.querySelector("#header");
 
-var sticky = header.offsetTop;
+//var sticky = header.offsetTop;
 
 
 
@@ -28,7 +31,7 @@ function myFunction()
 }
 
 
-var mensData = [
+var hkData = [
 
     { id:1,
       image_url: "https://assets.ajio.com/medias/sys_master/root/h47/hb8/14876616851486/dnmx_black_mid-rise_fitted_jeans.jpg",
@@ -457,7 +460,7 @@ var mensData = [
 
     ];
 
-mensData.map(function (elem) {
+hkData.map(function (elem) {
     var box = document.createElement("div");
   
     var img = document.createElement("img");
@@ -484,8 +487,10 @@ mensData.map(function (elem) {
       discount.innerText = elem.discount;
       discount.style.color="#b29a76"
       
-    box.append(img, tag, name, price,sPrice,discount, offer);
-  
 
-    document.querySelector("#container").append(box);
+
+    box.append(img, tag, name, price,sPrice,discount, offer);
+    document.querySelector("#datains").append(box)
+   // document.querySelector("#datains").append(box);
   });
+  

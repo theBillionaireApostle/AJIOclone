@@ -195,7 +195,7 @@ color: #526371;
 
       background-color: #2b4051;
 
-      position: fixed;
+      position: relative;
       left: 0;
       bottom: 0;
       color: #c9c9c9;
@@ -307,4 +307,10 @@ color: #526371;
     width: 20%;
     border: 1px solid red;  
     height: 900px;
+  }
+  #main{
+      width: 100%;
+      height: auto;
+      border: 1px solid red;
+      display: flex;
   }
