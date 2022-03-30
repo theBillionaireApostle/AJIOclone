@@ -120,6 +120,11 @@ color: #526371;
     text-decoration: underline;
 }
 
+#datains{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
 #bottomSection
 {
     display: flex;
