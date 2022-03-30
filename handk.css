@@ -119,11 +119,38 @@ color: #526371;
 #specialBox>div>a:hover{
     text-decoration: underline;
 }
-
+#topbarins{height: 60px;
+    border-top: 1px solid #e5e3e3;
+    border-bottom: 1px solid #e5e3e3;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+#topbar1{
+    
+        position: relative;
+        clear: both;
+        height: 52px;
+        background-color: #f9f9f9;
+        margin: 3px 0;
+    
+}
+#header2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Lora;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    color: #333;
+    text-align: center;
+}
 #datains{
+   padding: 30px;
+    width: 60%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 20px;
 }
 #bottomSection
 {
@@ -314,6 +341,7 @@ color: #526371;
     height: 900px;
   }
   #main{
+      box-sizing: border-box;
       width: 100%;
       height: auto;
       border: 1px solid red;

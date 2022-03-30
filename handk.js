@@ -34,7 +34,7 @@ function myFunction()
 var hkData = [
 
     { id:1,
-      image_url: "https://assets.ajio.com/medias/sys_master/root/h47/hb8/14876616851486/dnmx_black_mid-rise_fitted_jeans.jpg",
+      image_url: "https://assets.ajio.com/medias/sys_master/root/20220218/DlZ0/620fa5d9f997dd03e2dbac50/indie_picks_multicolour_handblock_print_mull_cotton_door_curtain.jpg",
       tag: "DNMX",
       name: "Mid-Rise Fitted Jeans",
       price: "₹679",
@@ -420,6 +420,8 @@ hkData.map(function (elem) {
     var box = document.createElement("div");
   
     var img = document.createElement("img");
+    img.style.width="300px"
+    
     img.src = elem.image_url;
     
     var tag = document.createElement("h2")
@@ -447,6 +449,6 @@ hkData.map(function (elem) {
 
     box.append(img, tag, name, price,sPrice,discount, offer);
     document.querySelector("#datains").append(box)
-   // document.querySelector("#datains").append(box);
+  
   });
   
