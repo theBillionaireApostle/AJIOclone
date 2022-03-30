@@ -8,7 +8,8 @@
     height: 100px;
     width: 100%;
     /* border: 1px solid red; */
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
    
     
 }
@@ -38,7 +39,7 @@
     
 }
 #logoSection>img{
-    height: 50%;
+    height: 40%;
     position: relative;
     top: 20px;
     left: 120px;
@@ -89,7 +90,8 @@
 #topSection>div>a{
     
     text-decoration: none;
-    color: black;
+    color: #2b4051;
+    font-size: 12px;
 }
 
 #topSection>div>a:hover{
@@ -114,6 +116,7 @@ color: #526371;
 {
     color: white;
     text-decoration: none;
+    font-size: 12px;
 
 }
 #specialBox>div>a:hover{
@@ -195,7 +198,7 @@ color: #526371;
 
       background-color: #2b4051;
 
-      position: fixed;
+      position: relative;
       left: 0;
       bottom: 0;
       color: #c9c9c9;
@@ -301,4 +304,7 @@ color: #526371;
   {
         display: flex;
         justify-content: center;
+        padding-bottom: 5px;
   }
+
+  
