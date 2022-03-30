@@ -122,7 +122,39 @@ color: #526371;
 #specialBox>div>a:hover{
     text-decoration: underline;
 }
-
+#topbarins{height: 60px;
+    border-top: 1px solid #e5e3e3;
+    border-bottom: 1px solid #e5e3e3;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+#topbar1{
+    
+        position: relative;
+        clear: both;
+        height: 52px;
+        background-color: #f9f9f9;
+        margin: 3px 0;
+    
+}
+#header2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Lora;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    color: #333;
+    text-align: center;
+}
+#datains{
+   padding: 30px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
 #bottomSection
 {
     display: flex;
@@ -192,7 +224,11 @@ color: #526371;
 
 
   #footer{
+<<<<<<< HEAD:common.css
       height: 100%;
+=======
+      height: 450px;
+>>>>>>> 6e28f0246013d0cfb384291e19f853cb77842a0b:handk.css
       width: 100%;
       border: 1px solid #2b4051;
 
@@ -305,7 +341,24 @@ color: #526371;
   {
         display: flex;
         justify-content: center;
+<<<<<<< HEAD:common.css
         padding-bottom: 10px;
   }
 
   
+=======
+  }
+
+  #leftbar{
+    width: 20%;
+    border: 1px solid red;  
+    height: 900px;
+  }
+  #main{
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      border: 1px solid red;
+      display: flex;
+  }
+>>>>>>> 6e28f0246013d0cfb384291e19f853cb77842a0b:handk.css
