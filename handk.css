@@ -122,12 +122,15 @@ color: #526371;
 #specialBox>div>a:hover{
     text-decoration: underline;
 }
-#topbarins{height: 60px;
+#topbarins{
+
+    height: 60px;
     border-top: 1px solid #e5e3e3;
     border-bottom: 1px solid #e5e3e3;
     background-color: #fff;
     margin-bottom: 20px;
     margin-top: 0;
+
 }
 #topbar1{
     
@@ -139,6 +142,7 @@ color: #526371;
     
 }
 #header2{
+
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: Lora;
@@ -147,13 +151,17 @@ color: #526371;
     letter-spacing: .1px;
     color: #333;
     text-align: center;
+
 }
 #datains{
-   padding: 30px;
-    width: 60%;
+
+    box-sizing: border-box;
+    padding: 30px;
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+
 }
 #bottomSection
 {
@@ -224,11 +232,7 @@ color: #526371;
 
 
   #footer{
-<<<<<<< HEAD:common.css
-      height: 100%;
-=======
       height: 450px;
->>>>>>> 6e28f0246013d0cfb384291e19f853cb77842a0b:handk.css
       width: 100%;
       border: 1px solid #2b4051;
 
@@ -341,16 +345,10 @@ color: #526371;
   {
         display: flex;
         justify-content: center;
-<<<<<<< HEAD:common.css
-        padding-bottom: 10px;
-  }
-
-  
-=======
   }
 
   #leftbar{
-    width: 20%;
+    width: 30%;
     border: 1px solid red;  
     height: 900px;
   }
@@ -361,4 +359,3 @@ color: #526371;
       border: 1px solid red;
       display: flex;
   }
->>>>>>> 6e28f0246013d0cfb384291e19f853cb77842a0b:handk.css
