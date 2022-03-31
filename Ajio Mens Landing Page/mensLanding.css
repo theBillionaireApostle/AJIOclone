@@ -1,0 +1,210 @@
+#content>div
+  {
+      box-sizing: border-box;
+      overflow: hidden;
+  }
+
+  .banner>img
+  {
+     
+      height: 100%;
+      width: 100%;
+      /* border: 1px solid red; */
+      transition: 1.0s all ease-in-out;
+      
+      
+  }
+  .banner>img:hover
+  {
+      transform: scale(1.06);
+      width: 100%;
+      cursor: pointer;
+      /* object-fit: cover; */
+  }
+  #discountBanners
+  {
+      height: 100%;
+      width: 100%;
+      /* border: 1px solid red; */
+      overflow: hidden;
+      
+  }
+
+  .discountCoupons
+  {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      
+  }
+  .gapFiller
+  {
+    position: relative;
+    top: -10px;
+  }
+  .slideIndicators
+  {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      padding-top: 15px;
+      padding-bottom: 10px;
+  }
+  .indicator
+  {
+      height: 5px;
+      width: 50px;
+      background-color: #bbb;
+      border-radius: 10px;
+      margin:  2px;
+      background-position: right;  
+
+      
+  }
+  
+      
+     
+    
+  
+  
+  .active
+  {
+    
+    background: linear-gradient(to left, #bbb 50%, gray 50%)left;
+    background-size: 200%;
+    transition: 3.0s ease;
+   
+  }
+
+  .orangePamplets
+  {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      /* grid-template-rows: repeat(1,250px); */
+      overflow: hidden;
+      
+
+  }
+  .orangePamplets>div
+  {
+    overflow: hidden;
+  }
+
+  .yellowPamplets
+  {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      /* grid-template-rows: repeat(1,250px); */
+      overflow: hidden;
+      
+
+  }
+  .yellowPamplets>div
+  {
+    overflow: hidden;
+  }
+
+  .greenPamplets
+  {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      /* grid-template-rows: repeat(1,250px); */
+      overflow: hidden;
+      
+
+  }
+  .greenPamplets>div
+  {
+    overflow: hidden;
+  }
+
+  .bluePamplets
+  {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      /* grid-template-rows: repeat(1,250px); */
+      overflow: hidden;
+      
+
+  }
+  .bluePamplets>div
+  {
+    overflow: hidden;
+  }
+
+  .whitePamplets
+  {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      /* grid-template-rows: repeat(1,250px); */
+      overflow: hidden;
+      
+
+  }
+  .whitePamplets>div
+  {
+    overflow: hidden;
+  }
+  .spinnerPamplets
+  {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      /* grid-template-rows: repeat(1,250px); */
+      overflow: hidden;
+  }
+  .purplePamplets
+  {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(3);
+      overflow: hidden;
+  }
+  .purplePamplets>div
+  {
+      overflow: hidden;
+  }
+  .smallPamplets{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5);
+    overflow: hidden;
+  }
+  #qualities
+  {
+      height: 140px;
+      width: 100%;
+      /* border: 1px solid red; */
+      
+      
+
+  }
+  #qualities>div{
+    
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      column-gap: 20%;
+      height: 100%;
+      width: 70%;
+      /* border: 1px solid green; */
+      margin: auto;
+}
+
+#qualities>div>div{
+     /* border: 1px solid blue; */
+}
+#qualities>div>div>div{
+    padding: 10px;
+    display: flex;
+    position: relative;
+    top:20px;
+    justify-content: center;
+    font-size: 15px;
+    color: #333333;
+    font-family: "Lora";
+    font-weight: 600;
+    
+}
+#qualities>div>div>div>i{
+font-size:40px;
+}
