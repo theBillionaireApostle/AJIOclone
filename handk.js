@@ -1,169 +1,7 @@
 
-
-
 // window.onscroll = function() {myFunction()};
 
 var header = document.querySelector("#header");
-
-//var sticky = header.offsetTop;
-
-
-
-
-
-// function myFunction()
-// {
-   
-
-//     if(window.pageYOffset > sticky)
-//     {
-//         header.classList.add("sticky");
-//         console.log("Executed")
-
-//     }
-//     else
-//     {
-//         header.classList.remove("sticky")
-//     }
-
-
-
-// }
-
-
-// var hkData = [
-
-//     { id:1,
-//       image_url: "https://assets.ajio.com/medias/sys_master/root/20220218/DlZ0/620fa5d9f997dd03e2dbac50/indie_picks_multicolour_handblock_print_mull_cotton_door_curtain.jpg",
-//       tag: "DNMX",
-//       name: "Mid-Rise Fitted Jeans",
-//       price: "₹679",
-//       strikedoffprice: "₹799",
-//       discount : "(15% off)",
-//       offer: "Offer Price: ₹639",
-//     },
-//     { id:2,
-//       image_url: "https://assets.ajio.com/medias/sys_master/root/20220301/TPXo/621d1530f997dd03e2f5346e/campus_grey_%26_orange_rollz_lace-up_running_shoes_with_contrast_heel_panel.jpg",
-//       tag: "CAMPUS",
-//       name: "Rollz Lace-up Running Shoes with Contrast Heel Panel",
-//       price: "₹1,199",
-//       strikedoffprice: "₹1,599",
-//       discount : "(25% off)",
-//       offer: "Offer Price: ₹839",
-//     },
-//     {id:3,
-//       image_url: "https://assets.ajio.com/medias/sys_master/root/20200723/CFmP/5f19acf37cdb8c2207843537/crocs_navy_bayaband_slingback_clogs.jpg",
-//       tag: "CROCS",
-//       name: "Bayaband Slingback Clogs",
-//       price: "₹2,447",
-//       strikedoffprice: "₹3,495",
-//       discount : "(30% off)",
-//       offer: "Offer Price: ₹1,713",
-//     },
-//     {id:4,
-//       image_url: "https://assets.ajio.com/medias/sys_master/root/20211013/uqO3/616622b1f997ddf8f1cd31ca/dillinger_green_colourblock_crew-_neck_t-shirt.jpg",
-//       tag: "DILLINGER",
-//       name: "Colourblock Crew-Neck T-shirt",
-//       price: "₹500",
-//       strikedoffprice: "₹1,249",
-//       discount : "(60% off)",
-//       offer: "Offer Price: ₹337",
-//     },
-//     {id:5,
-//       image_url: "https://assets.ajio.com/medias/sys_master/root/20220125/NdPb/61ef13c0aeb2695cdd2bb6b8/performax_black_fastdry_active_panelled_track_pants.jpg",
-//       tag: "PERFORMAX",
-//       name: "Fastdry Active Pannelled Track Pants",
-//       price: "₹639",
-//       strikedoffprice: "₹799",
-//       discount : "(20% off)",
-//       offer: "Offer Price: ₹599",
-//     },
-//     {id:6,
-//       image_url: "https://assets.ajio.com/medias/sys_master/root/20211231/oigB/61ce3c65aeb2695cddff3308/garcon_red_polo_t-shirt_with_spread_collar.jpg",
-//       tag: "Garcon",
-//       name: "Polo T-shirt with Spread Collar",
-//       price: "₹420",
-//       strikedoffprice: "₹1,199",
-//       discount : "(65% off)",
-//       offer: "Offer Price: ₹384",
-//     },
-//     {id:7,
-//       image_url: "https://assets.ajio.com/medias/sys_master/root/h79/h02/10267307016222/netplay_black_slim_fit_mid-rise_chinos.jpg",
-//       tag: "NETPLAY",
-//       name: "Slim Fit Mid-Rise Chinos",
-//       price: "₹799",
-//       strikedoffprice: "₹999",
-//       discount : "(20% off)",
-//       offer: "Offer Price: ₹749",
-//     },
-//     {id:8,
-//       image_url:"https://assets.ajio.com/medias/sys_master/root/20211104/01A4/6182d768aeb2690110b95a57/red_tape_navy_blue_textured_lace-up_sports_shoes.jpg"
-//       ,tag: "RED TAPE",
-//       name: "Textured Lace-Up Sports Shoes",
-//       price: "₹2,190",
-//       strikedoffprice: "₹7,299",
-//       discount : "(70% off)",
-//       offer: "Offer Price: ₹2,190",
-//     },
-//     {id:9,
-//       image_url:"https://assets.ajio.com/medias/sys_master/root/20211228/7icQ/61ca2db2aeb26901101f06cb/netplay_olive_green_jacquard-woven_slim_fit_polo_t-shirt.jpg",
-//       tag: "NETPLAY",
-//       name: "Jacquard-Woven Slim Fit Polo T-shirt",
-//       price: "₹639",
-//       strikedoffprice: "₹799",
-//       discount : "(20% off)",
-//       offer: "Offer Price: ₹599",
-//     },
-//     {id:10,
-//       image_url: "https://assets.ajio.com/medias/sys_master/root/h1d/h2e/15885260521502/dennislingo_premium_attire_blue_checked_slim_fit_shirt.jpg",
-//       tag: "DENNISLINGO PREMIUM ATTIRE",
-//       name: "Checked Slim Fit Shirt",
-//       price: "₹775",
-//       strikedoffprice: "₹2,499",
-//       discount : "(69% off)",
-//       offer: "Offer Price: ₹675",
-//     },
-//     
-   
-
-//     ];
-
-// hkData.map(function (elem) {
-//     var box = document.createElement("div");
-  
-//     var img = document.createElement("img");
-//     img.style.width="300px"
-    
-//     img.src = elem.image_url;
-    
-//     var tag = document.createElement("h2")
-//     tag.textContent=elem.tag;
-//     tag.style.color="#b29a76";
-//     var name = document.createElement("p");
-//     name.textContent = elem.name;
-
-//     var price = document.createElement("p");
-//     price.innerText = elem.price;
-//     price.style.fontWeight="bold";
-     
-//      var sPrice = document.createElement("s");
-//      sPrice.innerText = elem.strikedoffprice;
-     
-
-//     var offer = document.createElement("p");
-//     offer.innerText = elem.offer;
-
-//       var discount = document.createElement("p");
-//       discount.innerText = elem.discount;
-//       discount.style.color="#b29a76"
-      
-
-//     box.append(img, tag, name, price,sPrice,discount, offer);
-//     document.querySelector("#datains").append(box)
-  
-//   });
-  
-
   // home and kitchen data
 
   var hkData = [
@@ -347,7 +185,38 @@ var header = document.querySelector("#header");
       
     }];
 
-    hkData.map(function (elem) {
+   window.addEventListener("load", function(){
+    displaydata(hkData)
+   })
+   //sorting-----------------------------------
+   
+  function sortbn(){
+      var changval = document.querySelector("#sb").value;
+      //console.log(changval);
+    if(changval=="ass"){
+        hkData.sort(function(a,b){
+         return (a.accnum)-(b.accnum);
+        })
+        document.querySelector("#datains").innerHTML=""
+       console.log(hkData)
+       console.log(changval);
+       displaydata(hkData)
+       
+    }
+    if(changval=="dec"){
+      hkData.sort(function(a,b){
+        return (b.accnum)-(a.accnum);
+       })
+       document.querySelector("#datains").innerHTML=""
+      console.log(hkData)
+      console.log(changval);
+      displaydata(hkData)
+      
+    }
+  }
+
+function displaydata(hkData){
+  hkData.map(function (elem) {
 
     var box = document.createElement("div");  
     var img = document.createElement("img");
@@ -372,6 +241,12 @@ var header = document.querySelector("#header");
       var offer = document.createElement("p");
       offer.innerText = elem.offer;
 
+
+      var num=elem.price.substr(1)
+      num=num.replace(",", "")
+      elem.accnum=num;
+    
+
       var discount = document.createElement("p");
       discount.innerText = elem.discount;
       discount.style.color="#b29a76"
@@ -380,40 +255,8 @@ var header = document.querySelector("#header");
        document.querySelector("#datains").append(box);
   
     });
+  }
 
-
-
-
-      // ---------------------------------------------------
-
-
-
-
-
-    // var box = document.createElement("div");
-  
-    // var img = document.createElement("img");
-    // img.src = elem.image_url;
-    
-    // var tag = document.createElement("h2")
-    // tag.textContent=elem.tag;
-    // tag.style.color="#b29a76";
-    // var name = document.createElement("p");
-    // name.textContent = elem.name;
-
-    // var price = document.createElement("p");
-    // price.innerText = elem.price;
-    // price.style.fontWeight="bold";
-     
-    //  var sPrice = document.createElement("s");
-    //  sPrice.innerText = elem.strikedoffprice;
-     
-
-    // var offer = document.createElement("p");
-    // offer.innerText = elem.offer;
-
-    //   var discount = document.createElement("p");
-    //   discount.innerText = elem.discount;
-    //   discount.style.color="#b29a76"
-      
-    
+   
+   
+ 

@@ -133,7 +133,7 @@ color: #526371;
 
 }
 #topbar1{
-    
+        display: flex;
         position: relative;
         clear: both;
         height: 52px;
@@ -359,3 +359,9 @@ color: #526371;
       border: 1px solid red;
       display: flex;
   }
+  #sortbar{
+      
+    display: flex;
+    margin: auto;
+  }
+
