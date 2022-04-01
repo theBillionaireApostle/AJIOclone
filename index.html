@@ -13,8 +13,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="common.css">
+    <!-- <link rel="script" href="login.js"> -->
     <link rel="stylesheet" href="homepage.css">
+    <!-- <link rel="stylesheet" href="login.css"> -->
     <link rel="icon" type="image/png" href="https://static.wikia.nocookie.net/logopedia/images/d/dc/Ajio-Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
     <!-- <link rel="script" href="common.js"> -->
 </head>
 <script
@@ -25,7 +30,159 @@ crossorigin="anonymous"
 
 
      <!-- This is the Start Of Header -->
-   
+
+
+                         <!-- Form 1 Start-->
+
+
+                                <input type="checkbox" name="" id="loginShow">
+                                <div class="form login">
+                                    <div>
+                                    <form action="" id="login">
+                                        <label for="loginShow" class="btnClose">&times;</label>
+                                        <div class="formHeader"> Welcome to AJIO</div>
+                                        <div class="secondHeader">Join / Sign In Using</div>
+                                        <div id="buttonlogoContainer">
+                                            <div>
+                                                <div><img src="https://www.designbust.com/download/640/png/facebook_logo_transparent512.png" alt=""></div>
+                                                <div id="facebook">Facebook</div>
+                                            </div>
+                                            <div>
+                                                <div><img src="data:image/png;base64,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" alt=""></div>
+                                                <div id="google">Google</div>
+                                            </div>
+                                        </div>
+                                        <div id="hr">
+                                            <div>
+                                                <hr>
+                                            </div>
+                                            
+                                            <span> Or </span>
+                                            <div>
+                                                <hr>
+                                            </div>
+                                        </div>
+                                        <div><label for="">Enter Mobile Number/Email*</label></div>
+                                        <div><input type="text" id="username"></div>
+                                        <div class="alert"></div>
+                                        <div><input type="submit" value="CONTINUE" id="continue"></div>
+                                        
+                                        <div id="TnC">By Signing In, I agree to <a href="">Terms and Conditions</a>.</div>
+
+                                    </form>
+                                </div>
+                                </div>
+                                <!-- Form 1  End-->
+
+
+                                <!-- Form 2 Start-->
+
+                                <input type="checkbox" name="" id="OtpShow">
+                                <div class="form otp">
+                                 <div>
+                                 <form action="" id="otp">
+                                     <label for="OtpShow" class="btnClose">&times;</label>
+                                     <h1>Sign In with OTP</h1>
+                                     <h5>Please Enter OTP Sent to</h5>
+                                     <h5>+91 9428744106</h5>
+                                     <div>
+                                         <div>
+                                             <div></div>
+                                             <div></div>
+                                         </div>
+                                         <div>
+                                              <div></div>
+                                              <div></div>
+                                         </div>
+                                     </div>
+                                     
+                                     
+                                     <div><input type="text" id="otpValue" placeholder="Enter OTP"></div>
+                                     <div><input type="submit" value="Start Shopping"></div>
+                                     
+                                     <div><input type="button" value="Login With Password" id="button"></div>
+                             
+                                 </form>
+                             </div>
+                             </div>
+
+
+
+
+
+
+
+                                <!-- Form 2  End-->
+                                 <!-- Sign Up Form Start-->
+
+                                 <input type="checkbox" name="" id="signUpShow">
+                                 <div class="form signUp">
+                                  <div>
+                                  <form action="" id="signUp">
+                                      <label for="signUpShow" class="btnClose">&times;</label>
+                                      <div class="formHeader">Welcome to AJIO</div>
+                                      <div class="secondHeader">Please set up your account</div>
+                                      <div id="userEmailShow">
+                                        <div id="signUpEmail"></div>
+                                        <div id="Edit"></div>
+                                      </div>
+                                      
+                                      <label for="gender">Gender:</label>
+                                      
+                                        <input type="radio" name="gender" id="Mgender" value="M"><label for="Mgender"> Male</label>
+                                       <input type="radio" name="gender" id="Fgender" value="F"><label for="Fgender"> Female</label> 
+                                      
+                                      
+
+                                      <div>
+                                        <input type="text" name="" id="signUpname" placeholder="Name">
+                                      </div>
+                                      <div>
+                                        <input type="text" name="" id="signUpMobile" placeholder="Mobile">
+                                      </div>
+                                      
+                                      
+                                      <div class="otpmsg">OTP will be sent to your number for verification.</div>
+                                     
+                                      <div>
+                                        <input type="password" name="" id="signUpPassword" placeholder="Password">
+                                      </div>
+                                      <div>
+                                        <input type="text" name="" id="inviteCode" placeholder="Invite code (optional)">
+                                      </div>
+                                      
+                                      <div id="TnC"><input type="checkbox">By Signing Up, I agree to <a href="">Terms and Conditions</a></div>
+                                      
+                                      <input type="submit" value="SEND OTP">
+                                      
+                                      
+                                     
+                              
+                                  </form>
+                              </div>
+                              </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                 <!-- Sign Up Form  End-->
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div id="header">
         <div id="ruler"></div>
 
@@ -45,7 +202,9 @@ crossorigin="anonymous"
                 </div>
                 <div id="segment2">
                     <div id="topSection">
-                        <div><a href="">Sign In / Join AJIO</a></div>
+                        <div id="postLoginAmenities1">Hi <span id="nameOfUser">Rufus</span></div>
+                        <div id="postLoginAmenities2"><a href=""> My Account</a></div>
+                        <div><label for="loginShow" id="signOutChanger">Sign In / Join AJIO</label></div>
                         
                         <div><a href="">Customer Care</a></div>
                         <div id="specialBox">
@@ -110,7 +269,7 @@ crossorigin="anonymous"
 
         <div id="discountBanners ">
                 <div>
-                    <div class="banner gapFiller"><img src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-unisex-MeettheStarsoftheShow-Header.jpg" alt=""></div>
+                    <div class="banner "><img src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-unisex-MeettheStarsoftheShow-Header.jpg" alt=""></div>
                 </div>
                 
             
@@ -1231,7 +1390,8 @@ crossorigin="anonymous"
         </div>
     </div>
     </div>
-
+    
+   
    
 
 
@@ -1241,6 +1401,8 @@ crossorigin="anonymous"
 
 
 <script>
+
+    //Slider Code
 
     let slideIndex1 = 0;
     let slideIndex2 = 0;
@@ -1438,4 +1600,161 @@ crossorigin="anonymous"
         
         setTimeout(showSlides6,3000)
     }
+   
+    // Slider Functions Finished
+
+
+
+
+    //LOGIN CODE
+
+    document.querySelector(".login").addEventListener('submit',myFunction);
+    // console.log("Working")
+    function myFunction()
+    {
+        event.preventDefault();
+       var username=  document.querySelector("#username").value;
+        var m = /^(\+\d{1,3}[- ]?)?\d{10}$/;
+        var e = /\S+@\S+\.\S+/;
+        var checked =e.test(username) || m.test(username);
+
+       
+
+        if(username == "" || !checked)
+        {
+            document.querySelector(".alert").textContent = "Please enter valid Mobile Number / Email.";
+        }
+        else
+        {
+
+                    console.log("Working1")
+                var data = JSON.parse(localStorage.getItem("database"))||[];
+                var isPresent = false;
+                data.forEach(element => {
+                    if(username == element.email || username == element.mobile)
+                    {
+                        var msg = "Successful";
+                        alert(msg)
+                        //    document.querySelector("#status").textContent = "Successfully Logged In. Will be redirected to HOME";
+                        //    document.querySelector("#status").style.color = "#01ff29"
+                        //    setTimeout(function(){
+                        //     window.location.href ="index.html"
+                        //    },4000);
+                        isPresent = true;
+                        var form1 = document.querySelector(".login");
+                        //form1.style.display = "none"
+                        document.querySelector("#loginShow").checked = false
+                        var form2 = document.querySelector(".otp");
+                        //form2.style.display = "block"
+                        document.querySelector("#OtpShow").checked = true
+                        form2.addEventListener('submit',function()
+                        {
+                            event.preventDefault()
+                            
+                            var otp = document.querySelector("#otpValue").value; 
+                            console.log("working",otp)
+                            checkopt(otp,element);
+                        })
+                        
+                        
+                        
+                        
+                        
+                    }
+                    
+                });
+        
+
+
+
+
+
+
+
+
+
+
+       function checkopt(otp,e)
+       {
+               
+            if(otp == "1234")
+            {
+                alert("Halleluja")
+                document.querySelector("#OtpShow").checked = false;
+                document.querySelector("#segment2").style.width = "45%";
+                document.querySelector("#postLoginAmenities1").style.display = "block";
+                document.querySelector("#postLoginAmenities2").style.display = "block";
+                document.querySelector("#signOutChanger").textContent = "Sign Out";
+                document.querySelector("#signOutChanger").addEventListener('click',signOut)
+                
+            }
+       }
+       function signOut()
+       {
+            window.location.reload();
+       }
+       if(!isPresent)
+       {
+
+            document.querySelector("#signUpEmail").textContent = username;
+         
+              document.querySelector("#loginShow").checked = false;
+              document.querySelector("#signUpShow").checked = true;
+
+              document.querySelector(".signUp").addEventListener('submit',otp)
+
+              function otp()
+              {
+                event.preventDefault()
+                document.querySelector("#signUpShow").checked = false;
+                document.querySelector("#OtpShow").checked = true;
+                document.querySelector(".otp").addEventListener('submit',function()
+                {
+                   event.preventDefault()
+                   
+                   var otp = document.querySelector("#otpValue").value; 
+                   console.log("working2",otp)
+                   checkopt(otp);
+                   myFun();
+               })
+              }
+          
+       }
+        }
+
+        //SIGN-UP CODE
+
+
+        
+    
+
+        
+        function myFun()
+        {
+            var data2 = JSON.parse(localStorage.getItem("database")) || []
+            event.preventDefault();
+            console.log(data2)
+    
+
+        var phno = document.querySelector("#signUpMobile").value;
+        var name = document.querySelector("#signUpname").value;
+        var pass = document.querySelector("#signUpPassword").value;
+        var code = document.querySelector("#inviteCode").value;
+        var email = document.querySelector("#username").value;
+
+        var obj = {
+            "mobile":phno,
+            "name":name,
+            "pass":pass,
+            "code":code,
+            "email":email
+
+        };
+        data2.push(obj);
+
+        localStorage.setItem("database",JSON.stringify(data2));
+
+        }
+    }
+
 </script>

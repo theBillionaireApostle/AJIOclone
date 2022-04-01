@@ -37,11 +37,11 @@
       overflow: hidden;
       
   }
-  .gapFiller
+  /* .gapFiller
   {
     position: relative;
     top: -10px;
-  }
+  } */
   .slideIndicators
   {
       text-align: center;
@@ -117,6 +117,7 @@
   {
       height: 140px;
       width: 100%;
+      background-color: #fafafa;
       /* border: 1px solid red; */
       
       
@@ -150,4 +151,17 @@
 }
 #qualities>div>div>div>i{
 font-size:40px;
+}
+.otpmsg
+{
+    font-size: 10px;
+}
+#signUpEmail
+{
+    padding-bottom: 20px;
+}
+
+#TnC>input[type=checkbox]
+{
+    display:flex;
 }
