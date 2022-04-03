@@ -365,6 +365,7 @@ if(s5.checked){
   function addtocart(elem){
    
     cartdata.push(elem)
+    alert("added to cart")
     console.log(cartdata)
     localStorage.setItem("datacart",JSON.stringify(cartdata))
   }
