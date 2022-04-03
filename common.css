@@ -437,8 +437,6 @@ input[type=text],input[type=password]
     width: 90%;
     margin-top: 10px;
     height: 30px;
-    font-size: 15px;
-    font-weight: bold;
 
 }
 input[type=text]:focus{
@@ -610,59 +608,4 @@ input[type='radio']:checked:after {
     letter-spacing: 3px;
     margin-top: 20px;
     margin-bottom: 10px;
-}
-#secondqualities>div>div>div{
-    padding: 10px;
-    display: flex;
-    position: relative;
-    top:20px;
-    justify-content: center;
-    font-size: 15px;
-    color: #d5a248;
-    font-family: "Lora";
-    font-weight: 600;
-    
-}
-#secondqualities>div>div>div>i{
-font-size:40px;
-}
-#secondqualities
-  {
-      height:140px;
-      width: 100%;
-      background-color: #fafafa;
-      /* border: 1px solid red; */
-      
-      
-
-  }
-  #secondqualities>div{
-    
-      display: grid;
-      grid-template-columns: repeat(4,1fr);
-      column-gap: 0%;
-      height: 100%;
-      width: 100%;
-      /* border: 1px solid green; */
-      margin: auto;
-}
-#secondqualities>div>div
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.brownCircle
-{
-    background-color: #d5a248;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    color: white;
-    height: 5px;
-    width: 5px;
-    background-color: #d5a248;
-    border-radius: 50%;
-    padding: 15px;
 }
