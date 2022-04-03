@@ -1,0 +1,374 @@
+*{
+
+    font-family: "Source Sans Pro";
+}
+
+a{
+ text-decoration: none;   
+}
+#header
+{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid red; */
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+   
+    
+}
+
+
+#ruler{
+
+    height: 3px;
+    width: 100%;
+    border:none;
+    background-color: #2b4051;
+    position: relative;
+    top: -7px;
+}
+#headContent
+{
+     display: flex;
+}
+
+#logoSection
+{
+    height: 96px;
+    width: 30%;
+    /* border: 1px solid blue; */
+    display: flex;
+    
+    
+}
+#logoSection>img{
+    height: 40%;
+    position: relative;
+    top: 20px;
+    left: 120px;
+   
+
+}
+#headControls
+{
+    height: 96px;
+    width: 70%;
+    /* border: 1px solid blue; */
+    display: flex;
+}
+#segment1
+{
+    height: 83px;
+    width:50%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+#segment2
+{
+    height: 96px;
+    width: 40%;
+    /* border: 1px solid green; */
+}
+#segment1>div:hover
+{
+    font-weight: 900;
+    transition-delay:0.5s;
+    cursor: pointer;
+    color: #2b4051;
+}
+
+#segment2>div
+{
+    height: 49%;
+    /* border: 1px solid purple; */
+    display: flex;
+    
+}
+#topSection
+{
+    justify-content: space-around;
+}
+#topSection>div>a{
+    
+    text-decoration: none;
+    color: #2b4051;
+    font-size: 12px;
+}
+
+#topSection>div>a:hover{
+text-decoration: underline;
+color: #526371;
+}
+#specialBox
+{
+    height: 30px;
+    width: 30%;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: none;
+    align-items: center;
+    position: relative;
+    top: -9px;
+    
+}
+#specialBox>div>a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+#specialBox>div>a:hover{
+    text-decoration: underline;
+}
+#topbarins{
+
+    height: 60px;
+    border-top: 1px solid #e5e3e3;
+    border-bottom: 1px solid #e5e3e3;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+#topbar1{
+        display: flex;
+        position: relative;
+        clear: both;
+        height: 52px;
+        background-color: #f9f9f9;
+        margin: 3px 0;
+    
+}
+#header2{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Lora;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    color: #333;
+    text-align: center;
+
+}
+#datains{
+
+    box-sizing: border-box;
+    padding: 30px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+#bottomSection
+{
+    display: flex;
+    align-items: center;
+}
+
+#bottomSection>input:focus{
+    outline: none;
+}
+#bottomSection>input::placeholder{
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#bottomSection>input{
+    height: 60%;
+    width: 60%;
+    border-radius: 20px;
+    background-color: #fffded;
+    border: 1px solid black;
+}
+#bottomSection>button{
+
+    border-radius: 10px 50px 50px 10px;
+    height: 40%;
+    position: relative;
+    left: -30px;
+    top: 1px;
+    border: none;
+    background-color: #fffded;
+    cursor: pointer;
+
+}
+#bottomSection>div
+{
+    height: 70%;
+    width: 25%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+#bottomSection>div>div
+{
+    height: 100%;
+    width: 44%;
+    background-color: #2b4051;
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+#bottomSection>div>div>i{
+    color: white;
+
+} 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  .sticky + .headContent {
+    padding-top: 102px;
+  }
+
+
+  #footer{
+      height: 450px;
+      width: 100%;
+      border: 1px solid #2b4051;
+
+      background-color: #2b4051;
+
+      position: relative;
+      left: 0;
+      bottom: 0;
+      color: #c9c9c9;
+  }
+  #footer>div
+  {
+      height: 100%;
+      width: 80%;
+      margin: auto;
+  }
+
+
+  #fTopSection
+  {
+      height: 65%;
+      /* border: 1px solid white; */
+      display: flex;
+  }
+  #fBottomSection
+  {
+      height: 30%;
+      /* border: 1px solid white; */
+  }
+
+  #fTopSection>div
+  {
+      height: 100%;
+      width: 40%;
+      /* border: 1px solid white; */
+      text-align: left;
+  }
+  #fTopSection>div>div
+  {
+      height: 100%;
+      width: 60%;
+      
+      line-height: 25px;
+      /* border: 1px solid white; */
+
+  }
+  #fTopSection>div>div>div
+  {
+      font-size: 12px;
+  }
+  #fTopSection>div>div>div>a
+  {
+    color: #c9c9c9;
+    text-decoration: none;
+  }
+  #fTopSection>div>div>div>a:hover
+  {
+    
+    text-decoration: underline;
+  }
+
+
+
+  #fBottomSection>div
+  {
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid  red; */
+    display: flex;
+  }
+  #fTop
+  {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+  }
+  #fTop>div
+  {
+    font-family: Lora;
+  }
+
+  #fBottom
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  #icons
+  {
+      display: flex;
+      font-size: 15px;
+      justify-content: space-around;
+      width: 35%;
+      /* border: 1px solid white; */
+  }
+  #fBottom>div>div
+  {
+      
+      font-size: 15px;
+      /* border: 1px solid white; */
+      justify-content: center;
+      color: white;
+      
+  }
+  
+  #lock
+  {
+        display: flex;
+        justify-content: center;
+  }
+
+  #leftbar{
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 900px;
+  }
+  #main{
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      display: flex;
+  }
+  #sortbar{
+      
+    display: flex;
+    margin: auto;
+    
+  }
+
+  
