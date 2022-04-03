@@ -177,6 +177,9 @@ color: #526371;
     cursor: pointer;
     
 }
+a{
+    text-decoration: none;   
+   }
 #bottomSection>div>div>i{
     color: white;
 

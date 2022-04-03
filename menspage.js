@@ -241,6 +241,7 @@ function displaydata(hkData){
     var tag = document.createElement("h2")
     tag.textContent=elem.tag;
     tag.style.color="#b29a76";
+    
     var name = document.createElement("p");
     name.textContent = elem.name;
 
@@ -248,14 +249,18 @@ function displaydata(hkData){
     price.innerText = elem.price;
     price.style.fontWeight="bold";
      
-     var sPrice = document.createElement("s");
+     var sPrice = document.createElement("p");
      sPrice.innerText = elem.strikedoffprice;
+     sPrice.style.textDecoration = "line-through"
      
 
       var offer = document.createElement("p");
       offer.innerText = elem.offer;
-
-
+    var fl = document.createElement("div");
+    fl.style.display = "flex";
+    fl.style.paddingTop = "10px"
+    fl.style.justifyContent="space-evenly"
+    fl.style.marginTop = "-30px"
       var num=elem.price.substr(1)
       num=num.replace(",", "")
       elem.accnum=num;
@@ -264,7 +269,9 @@ function displaydata(hkData){
       var discount = document.createElement("p");
       discount.innerText = elem.discount;
       discount.style.color="#b29a76"
-      box.append(img, tag, name, price,sPrice,discount, offer);
+      box.style.textAlign = "center"
+      fl.append(price,sPrice,discount)
+      box.append(img, tag, name,fl );
   
        document.querySelector("#datains").append(box);
   

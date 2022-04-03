@@ -21,6 +21,9 @@
       cursor: pointer;
       /* object-fit: cover; */
   }
+  a{
+    text-decoration: none;   
+   }
   #discountBanners
   {
       height: 100%;
@@ -66,7 +69,7 @@
   .active
   {
     
-    background: linear-gradient(to left, #bbb 50%, gray 50%)left;
+    background: linear-gradient(to left, #bbb 50%, gray 50%) left;
     background-size: 200%;
     transition: 3.0s ease;
    
@@ -211,9 +214,7 @@
       margin: auto;
 }
 
-#qualities>div>div{
-     /* border: 1px solid blue; */
-}
+
 #qualities>div>div>div{
     padding: 10px;
     display: flex;

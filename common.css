@@ -410,9 +410,9 @@ input[type="checkbox"]
     padding: 0px 10px 0px 10px;
     color: #a9a9a9;
 }
-body{
-    /* filter: blur(5px); */
-}
+a{
+    text-decoration: none;   
+   }
 .btnClose
 {
     position: absolute;

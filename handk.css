@@ -130,6 +130,8 @@ color: #526371;
     background-color: #fff;
     margin-bottom: 20px;
     margin-top: 0;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 #topbar1{
@@ -349,14 +351,14 @@ color: #526371;
 
   #leftbar{
     width: 30%;
-    border: 1px solid red;  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
     height: 900px;
   }
   #main{
       box-sizing: border-box;
       width: 100%;
       height: auto;
-      border: 1px solid red;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       display: flex;
   }
   #sortbar{
@@ -364,5 +366,7 @@ color: #526371;
     display: flex;
     margin: auto;
   }
-
+  a{
+    text-decoration: none;   
+   }
   
