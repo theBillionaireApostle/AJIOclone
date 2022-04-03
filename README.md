@@ -7,14 +7,14 @@ Ajio invites customers to express their personal style, fearlessly. Ajio operate
 Hello Everyone!
 We are students of Masai School from Web17 batch and we presenting our project,built in construct week of Unit2.
 
-# This link of our project is here : https://tata-cliq-clone.netlify.app
+# This link of our project is here : https://jolly-pixie-2d9833.netlify.app
  
-# Blog link : https://medium.com/@sunilroka/construct-week-masai-school-deacc611daa4
+
 
 # Our Team Members 👨‍💻
-**[Sudarshan Rohidas Chavan](https://github.com/Akshit3010)**
-**[Rufus Bright](https://github.com/krashoka)**
-**[KVK SATISH](https://github.com/premsg1610)**
+**[Sudarshan Rohidas Chavan]
+**[Rufus Bright]
+**[KVK SATISH]
 
 
 
